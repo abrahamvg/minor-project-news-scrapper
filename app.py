@@ -23,7 +23,7 @@ def scrape_website():
         heading = soup.find('title').get_text()
 
         # Define selectors to remove specific elements
-        selectors = ['logo','byline_action','logo','timestamp', 'trending', 'widget', 'footer', 'new_', 'header', 'nav', 'sidebar', 'slick', 'slider', 'personalise', 'visualstories', 'popup', 'subscribe', 'meta', 'caption', 'rhs', 'recommendation', 'comment', 'share']
+        selectors = ['logo','byline_action','logo','timestamp', 'trending', 'widget', 'footer', 'new_', 'header', 'nav', 'slick', 'slider', 'personalise', 'visualstories', 'popup', 'subscribe', 'meta', 'caption', 'rhs', 'recommendation', 'comment', 'share']
 
         # Remove elements matching selectors
         # Remove elements matching selectors
